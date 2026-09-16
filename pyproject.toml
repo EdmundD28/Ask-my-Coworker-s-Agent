@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "amca"
+version = "0.1.0"
+description = "Ask My Coworker's Agent first-version collaboration core"
+requires-python = ">=3.12"
+
+[project.scripts]
+amca-agent = "amca.agent_process:main"
+amca-monitor = "amca.server:main"
+amca-receiver = "amca.receiver:main"
+amca-pilot = "amca.pilot:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/amca"]

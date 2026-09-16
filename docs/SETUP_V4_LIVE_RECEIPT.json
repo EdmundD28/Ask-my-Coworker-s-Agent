@@ -1,0 +1,58 @@
+{
+  "owner": {
+    "agent_id": "8f2c2742-77dc-4e08-80b8-41309dfcc902",
+    "space_id": "subnet-subnet-bff8bd",
+    "connected": true,
+    "endpoint_reachable": true,
+    "a2a_handshake_ok": true,
+    "membership_verified": true,
+    "checked_at": "2026-09-16T05:56:47.004276+00:00",
+    "channel_verified": true,
+    "node_stopped_after_test": true
+  },
+  "member": {
+    "agent_id": "fa3a57bc-74de-4a7b-a797-53ecd9d0d3c4",
+    "space_id": "subnet-subnet-bff8bd",
+    "connected": true,
+    "endpoint_reachable": true,
+    "a2a_handshake_ok": true,
+    "membership_verified": true,
+    "checked_at": "2026-09-16T05:59:14.321800+00:00",
+    "channel_verified": true,
+    "node_stopped_after_test": true
+  },
+  "packaged": {
+    "agent_id": "3464bb26-9d6d-41f1-8949-3eb02a227fce",
+    "space_id": "subnet-subnet-cbc1fb",
+    "connected": true,
+    "endpoint_reachable": true,
+    "a2a_handshake_ok": true,
+    "membership_verified": true,
+    "checked_at": "2026-09-16T06:05:34.144057+00:00",
+    "channel_verified": true,
+    "node_stopped_after_test": true
+  },
+  "roundtrip": {
+    "delivery": {
+      "status": "delivered",
+      "request_id": "req-e57a48e04f3e4b3e95485b1808bb4447"
+    },
+    "returned_answers": [
+      {
+        "conversation_id": "bilateral-aee82d694e84ff0b98dd7d64",
+        "from_agent": "fa3a57bc-74de-4a7b-a797-53ecd9d0d3c4",
+        "status": "answered",
+        "answer": "17 + 25 = 42。Ask My Coworker's Agent。",
+        "schema": "amca.agent-answer.v1",
+        "generated_at": "2026-09-16T06:01:00.537264+00:00",
+        "reason": "仅依据本次获准处理的合成算术题，没有读取私人资料。",
+        "target_agent": "8f2c2742-77dc-4e08-80b8-41309dfcc902",
+        "request_id": "req-e57a48e04f3e4b3e95485b1808bb4447"
+      }
+    ],
+    "real_remote_transport": true,
+    "independent_human_owners": false
+  },
+  "independent_human_owners": false,
+  "executable_sha256": "87a99a9cd2260a32824791e0da2199570c75003be443a3bd76e01a1c5f297b8c"
+}

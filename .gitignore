@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.sqlite3
+*.db
+.amca/
+data/
+build/
+*.spec
+dist/**/test-session*/
+dist/**/my-configuration.json
+dist/**/invitation/
+dist/**/ui-data/
+dist/invitations/
